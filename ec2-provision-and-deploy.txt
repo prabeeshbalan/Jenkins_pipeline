@@ -3,10 +3,10 @@ def ec2_public_ip = ""
 pipeline {
     agent none
     environment {
-        AWS_ACCESS_KEY_ID = "AKIATAVAA7FP73YWFV5O"
-        AWS_SECRET_ACCESS_KEY = "L57JNNtYSbXz0uewm3U+c079/ggC5Zobp5ReNcjB"
-        githubuser = "enter our githubusername"
-        githubpassword = "enter your githubpassword"
+        AWS_ACCESS_KEY_ID = "enter our aws key id"
+        AWS_SECRET_ACCESS_KEY = "enter our aws access key"
+        githubuser = "enter your github username"
+        githubpassword = "enter your github password"
     }
     
     stages {
