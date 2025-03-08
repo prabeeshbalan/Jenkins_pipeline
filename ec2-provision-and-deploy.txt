@@ -5,8 +5,8 @@ pipeline {
     environment {
         AWS_ACCESS_KEY_ID = "AKIATAVAA7FP73YWFV5O"
         AWS_SECRET_ACCESS_KEY = "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"
-        githubuser = "prabeeshbalan"
-        githubpassword = "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"
+        githubuser = "enter our githubusername"
+        githubpassword = "enter your githubpassword"
     }
     
     stages {
